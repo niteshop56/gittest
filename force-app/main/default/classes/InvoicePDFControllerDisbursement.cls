@@ -7,7 +7,7 @@ public with sharing class InvoicePDFControllerDisbursement {
     public List<Matter_Item__c> particularsItems { get; set; }
     public List<Matter_Item__c> disbursementItems { get; set; }
     
-    //hiiiiiiii
+    //hiiiiiiiii
     public Decimal particularsTotal { get; set; }
     public Decimal particularsTotalWithVAT { get; set; }
     public Decimal disbursementTotal { get; set; }
