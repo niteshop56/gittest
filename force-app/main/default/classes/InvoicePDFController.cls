@@ -4,7 +4,7 @@ public with sharing class InvoicePDFController {
 
     public InvoicePDFController() {
         String idParam = ApexPages.currentPage().getParameters().get('id');
-
+        //Hii Sir
         if(String.isBlank(idParam)) {
             inv = new Invoice__c();
             return;
