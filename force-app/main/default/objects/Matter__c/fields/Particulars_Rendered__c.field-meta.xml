@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Particulars_Rendered__c</fullName>
+    <description>Writeup for legal services rendered to appear on the invoice</description>
+    <inlineHelpText>Writeup for legal services rendered to appear on the invoice</inlineHelpText>
+    <label>Particulars Rendered</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

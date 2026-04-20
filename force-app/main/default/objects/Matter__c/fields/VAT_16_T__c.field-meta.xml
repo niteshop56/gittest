@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VAT_16_T__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    VAT_16__c &gt;= 1000000000,
+    TEXT(FLOOR(VAT_16__c / 1000000000)) &amp; &quot;,&quot; &amp; 
+    RIGHT(TEXT(FLOOR((VAT_16__c / 1000000) - (FLOOR(VAT_16__c / 1000000000) * 1000))), 3) &amp; &quot;,&quot; &amp; 
+    RIGHT(TEXT(FLOOR(VAT_16__c / 1000)), 3) &amp; &quot;,&quot; &amp; 
+    RIGHT(TEXT(FLOOR(VAT_16__c)), 3),
+    IF(
+        VAT_16__c &gt;= 1000000,
+        TEXT(FLOOR(VAT_16__c / 1000000)) &amp; &quot;,&quot; &amp; RIGHT(TEXT(FLOOR(VAT_16__c / 1000)), 3) &amp; &quot;,&quot; &amp; RIGHT(TEXT(FLOOR(VAT_16__c)), 3),
+        IF(
+            VAT_16__c &gt;= 1000,
+            TEXT(FLOOR(VAT_16__c / 1000)) &amp; &quot;,&quot; &amp; RIGHT(TEXT(FLOOR(VAT_16__c)), 3),
+            TEXT(FLOOR(VAT_16__c))
+        )
+    )
+)
+&amp; &quot;.&quot; &amp; LPAD(TEXT((Amount__c - FLOOR(VAT_16__c)) * 100), 2, &quot;0&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>VAT 16 T</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description__c</fullName>
+    <defaultValue>&quot;1. Give a detailed background or history of the matter. 2. What is the legal analysis of the issues in this matter. 3. Briefly summarize the client instructions with deliverables. 4. What is the timeline for this matter. 5. What are the agreed terms of payment (if any)&quot;</defaultValue>
+    <label>Description</label>
+    <length>32768</length>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

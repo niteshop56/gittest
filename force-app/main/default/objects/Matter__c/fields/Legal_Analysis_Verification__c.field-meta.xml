@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Analysis_Verification__c</fullName>
+    <label>Legal Analysis/Verification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Check if property is within quarry zone</fullName>
+                <default>false</default>
+                <label>Check if property is within quarry zone</label>
+            </value>
+            <value>
+                <fullName>Confirm marital status of vendor</fullName>
+                <default>false</default>
+                <label>Confirm marital status of vendor</label>
+            </value>
+            <value>
+                <fullName>Obtain spousal consent</fullName>
+                <default>false</default>
+                <label>Obtain spousal consent</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

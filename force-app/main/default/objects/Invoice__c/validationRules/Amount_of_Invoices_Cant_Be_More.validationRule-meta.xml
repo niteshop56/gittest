@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount_of_Invoices_Cant_Be_More</fullName>
+    <active>true</active>
+    <description>Total Amount of Legal Invoices Cannot be more than the Legal Fees on the Matter</description>
+    <errorConditionFormula>Legal_Fees_Invoiced_is_More__c = TRUE</errorConditionFormula>
+    <errorMessage>Total Amount of Legal Invoices Cannot be more than the Legal Fees of the Matter</errorMessage>
+</ValidationRule>

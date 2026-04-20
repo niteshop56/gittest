@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sum_of_Petty_Cash__c</fullName>
+    <label>Sum of Petty Cash</label>
+    <summarizedField>Disbursement__c.Amount__c</summarizedField>
+    <summaryForeignKey>Disbursement__c.Matter__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Practice_Area__c</fullName>
+    <label>Practice Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Department__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Real Estate Development (Property File)</fullName>
+                <default>false</default>
+                <label>Real Estate Development (Property File)</label>
+            </value>
+            <value>
+                <fullName>Intellectual Property (Property file)</fullName>
+                <default>false</default>
+                <label>Intellectual Property (Property file)</label>
+            </value>
+            <value>
+                <fullName>Litigation (Property File)</fullName>
+                <default>false</default>
+                <label>Litigation (Property File)</label>
+            </value>
+            <value>
+                <fullName>General File</fullName>
+                <default>false</default>
+                <label>General File</label>
+            </value>
+            <value>
+                <fullName>Real Estate</fullName>
+                <default>false</default>
+                <label>Real Estate</label>
+            </value>
+            <value>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+                <label>Commercial</label>
+            </value>
+            <value>
+                <fullName>Banking &amp; Financing</fullName>
+                <default>false</default>
+                <label>Banking &amp; Financing</label>
+            </value>
+            <value>
+                <fullName>Intellectual Property</fullName>
+                <default>false</default>
+                <label>Intellectual Property</label>
+            </value>
+            <value>
+                <fullName>Immigration Law</fullName>
+                <default>false</default>
+                <label>Immigration Law</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Hisa Property File</fullName>
+                <default>false</default>
+                <label>Hisa Property File</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Secretarial</controllingFieldValue>
+            <valueName>Hisa Property File</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Real Estate Development (Property File)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Intellectual Property (Property file)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Litigation (Property File)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>General File</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Real Estate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Commercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Banking &amp; Financing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Intellectual Property</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Immigration Law</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

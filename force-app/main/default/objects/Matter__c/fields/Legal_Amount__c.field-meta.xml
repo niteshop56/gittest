@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Amount__c</fullName>
+    <label>Legal Amount</label>
+    <summarizedField>Matter_Item__c.Amount__c</summarizedField>
+    <summaryFilterItems>
+        <field>Matter_Item__c.Type__c</field>
+        <operation>equals</operation>
+        <value>Legal Fees</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Matter_Item__c.Matter__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

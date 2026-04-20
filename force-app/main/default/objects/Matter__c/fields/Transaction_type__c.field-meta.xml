@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transaction_type__c</fullName>
+    <label>Transaction Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sale (acting for seller)</fullName>
+                <default>false</default>
+                <label>Sale (acting for seller)</label>
+            </value>
+            <value>
+                <fullName>Purchase (acting for Purchaser)</fullName>
+                <default>false</default>
+                <label>Purchase (acting for Purchaser)</label>
+            </value>
+            <value>
+                <fullName>Both Sale and Purchase</fullName>
+                <default>false</default>
+                <label>Both Sale and Purchase</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>true</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Lease</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lease</label>
+            </value>
+            <value>
+                <fullName>Purchase of Land</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Purchase of Land</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_After_First_Save</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  NOT($Permission.Bypass_Invoice_Lock),
+  NOT(ISNEW()),
+  NOT(ISBLANK(Invoice_Number__c)),
+  OR(
+    ISCHANGED(New_or_Old_Invoice__c),
+    ISCHANGED( Type__c ),
+    ISCHANGED(Invoice_Number__c)
+  )
+)</errorConditionFormula>
+    <errorMessage>Invoice Number, Invoice Type and New/Old mode cannot be changed after the record has an invoice number. Contact an administrator.</errorMessage>
+</ValidationRule>

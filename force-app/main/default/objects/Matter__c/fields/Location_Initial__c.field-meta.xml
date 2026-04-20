@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_Initial__c</fullName>
+    <externalId>false</externalId>
+    <formula>(CASE(TEXT(Client__r.Location_of_Client__c) ,
+&quot;Nairobi&quot;,&quot;NB&quot;,
+&quot;Mombasa&quot;,&quot;MS&quot;,
+&quot;Kisumu&quot;,&quot;KS&quot;,
+&quot;Nyeri&quot;,&quot;NY&quot;,
+&quot;Meru&quot;,&quot;MR&quot;,
+&quot;Eldoret&quot;,&quot;ED&quot;,
+&quot;Machakos&quot;,&quot;MK&quot;,
+&quot;Thika&quot;, &quot;THK&quot;,
+&quot;Naivasha&quot;, &quot;NVS&quot;,
+&quot;NY&quot;
+))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Location Initial</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

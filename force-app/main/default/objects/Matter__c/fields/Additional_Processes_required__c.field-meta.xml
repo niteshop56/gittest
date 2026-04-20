@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Processes_required__c</fullName>
+    <label>Additional Processes required</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Amalgamation</fullName>
+                <default>false</default>
+                <label>Amalgamation</label>
+            </value>
+            <value>
+                <fullName>Change of User</fullName>
+                <default>false</default>
+                <label>Change of User</label>
+            </value>
+            <value>
+                <fullName>Conversion</fullName>
+                <default>false</default>
+                <label>Conversion</label>
+            </value>
+            <value>
+                <fullName>Extension of Lease</fullName>
+                <default>false</default>
+                <label>Extension of Lease</label>
+            </value>
+            <value>
+                <fullName>Georeferencing</fullName>
+                <default>false</default>
+                <label>Georeferencing</label>
+            </value>
+            <value>
+                <fullName>Registration of Sectional Titles</fullName>
+                <default>false</default>
+                <label>Registration of Sectional Titles</label>
+            </value>
+            <value>
+                <fullName>Subdivision/Partition</fullName>
+                <default>false</default>
+                <label>Subdivision/Partition</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

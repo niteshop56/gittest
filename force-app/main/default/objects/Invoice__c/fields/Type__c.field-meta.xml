@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Disbursements</fullName>
+                <default>false</default>
+                <label>Disbursements</label>
+            </value>
+            <value>
+                <fullName>Legal Fees</fullName>
+                <default>true</default>
+                <label>Legal Fees</label>
+            </value>
+            <value>
+                <fullName>Proforma Invoice/Fee Note</fullName>
+                <default>false</default>
+                <label>Proforma Invoice/Fee Note</label>
+            </value>
+            <value>
+                <fullName>Hisa Disbursment</fullName>
+                <default>false</default>
+                <label>Hisa Disbursment</label>
+            </value>
+            <value>
+                <fullName>Hisa Secretarial Fees</fullName>
+                <default>false</default>
+                <label>Hisa Secretarial Fees</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
